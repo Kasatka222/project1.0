@@ -1,0 +1,119 @@
+m:
+mov 0E44,r0
+out r0,p0
+mov 1F28,r1
+out r1,p1
+mov 3FB8,r2
+out r2,p2
+mov 3F90,r3
+out r3,p3
+mov 3F90,r0
+out r0,p4
+mov 3FF0,r1
+out r1,p5
+mov 1FE0,r2
+out r2,p6
+mov 0000,r3
+out r3,p7
+;??????? ?????
+IN P0,R0
+ROR 1,r0
+OUT R0,P0
+;
+IN P1,R0
+ROR 1,r0
+OUT R0,P1
+;
+IN P2,R0
+ROR 1,r0
+OUT R0,P2
+;
+IN P3,R0
+ROR 1,r0
+OUT R0,P3
+;
+IN P4,R0
+ROR 1,r0
+OUT R0,P4
+;
+IN P5,R0
+ROR 1,r0
+OUT R0,P5
+;
+IN P6,R0
+ROR 1,r0
+OUT R0,P6
+;
+IN P7,R0
+ROR 1,r0
+OUT R0,P7
+;
+
+IN P0,R0
+ROL 1,r0
+OUT R0,P0
+;
+IN P1,R0
+ROL 1,r0
+OUT R0,P1
+;
+IN P2,R0
+ROL 1,r0
+OUT R0,P2
+;
+IN P3,R0
+ROL 1,r0
+OUT R0,P3
+;
+IN P4,R0
+ROL 1,r0
+OUT R0,P4
+;
+IN P5,R0
+ROL 1,r0
+OUT R0,P5
+;
+IN P6,R0
+ROL 1,r0
+OUT R0,P6
+;
+IN P7,R0
+ROL 1,r0
+OUT R0,P7
+;
+mov 0000,r3
+out r3,p7
+mov 0000,r0
+out r0,p0
+mov 0E44,r1
+out r1,p1
+mov 1F28,r2
+out r2,p2
+mov 3FB8,r3
+out r3,p3
+mov 3F90,r0
+out r0,p4
+mov 3F90,r1
+out r1,p5
+mov 3FF0,r2
+out r2,p6
+mov 1FE0,r3
+out r3,p7
+
+mov F1BB,r0
+out r0,p0
+mov E0D7,r1
+out r1,p1
+mov C047,r2
+out r2,p2
+mov C06F,r3
+out r3,p3
+mov C06F,r0
+out r0,p4
+mov C00F,r1
+out r1,p5
+mov E01F,r2
+out r2,p6
+mov FFFF,r3
+out r3,p7
+JMP m         
